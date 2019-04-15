@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/jquery.dialog.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Catching Eggs</title>
+</head>
+<body>
+        <audio id="back">
+                <source src="sounds/chicken.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="break">
+                <source src="sounds/break.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="basket">
+                <source src="sounds/basket.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="lose">
+                <source src="sounds/lose.mp3" type="audio/mpeg">
+        </audio>
+     <div id="maindiv">
+                
+            
+          
+        <div class="bar">
+            
+                <span class="timer">00:00</span>
+                <span class="score">score: <span style="color:red">0</span></span>
+                <span class="user">user: <span class="name" style="color:red"></span></span>
+                <span class="image"><img style="vertical-align:middle;
+                        " src="images/lifes.png" width="55"/></span>
+                <span class="lifes">5</span>
+                <span><input type="button" class="btn btn-danger" id="pauseResume" value="Pause"></span>
+            <a href="#"><input type="button" class="btn btn-primary" id="backbtn" value="Start"></a>
+
+        </div>
+        
+        <!-- <div class="BaskArea"></div>-->
+        <div id="chicken_div">
+            <img src="images/e.gif" class="chicken"/>
+        </div>
+        <div id="chicken_div">
+                <img src="images/e.gif" class="chicken"/>
+        </div>
+        <div id="chicken_div">
+                <img src="images/e.gif" class="chicken"/>
+        </div>
+        
+        <img id="collector" src="images/Basket.png"> 
+
+         
+
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.dialog.min.js"></script>
+    <script src="js/normalconfirm.js"></script>
+    <script src="js/chickenmovement.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/createEggn.js"></script>
+    <script src="js/moveBacket.js"></script>
+    <script src="js/resume.js"></script>
+    
+    
+
+</body>
+</html>
